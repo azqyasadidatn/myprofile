@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azqya Sadidatun Nisa</title>
+    <link rel="stylesheet" href="linktree.css" >
+</head> 
+<body>
+    <div class="poto">
+        <img src="azqya1.jpg">
+        <h3>Azqya Sadidatun Nisa</h3>
+    </div>
+    <div class= "tombol">
+        <a class="btn" href="https://www.instagram.com/qqqqq_nnisa?igsh=MW40b3JjdTk0dXVvZQ==" target="_blank">Instagram</a>
+        <a class="btn" onclick="showSection()">My Learning Journey</a>
+        <div class="menu-proyek" id="menu-proyek">
+            <a class="proyek" onclick="showSection('perempuaninovasi')" href="https://azqyasadidatn.github.io/kamusajaib-web-tugas-perempuan-inovasi/" target="_blank" > PI Tugas Akhir </a>
+            <a class="proyek" onclick="showSection('kalkulator')" href="https://azqyasadidatn.github.io/kalkulator/" target="_blank"> Kalkulator </a>
+            <a class="proyek" onclick="showSection('webpertama')" href="https://azqyasadidatn.github.io/web-pertama/" target="_blank"> Web Pertama </a>
+        </div>
+        <a class="btn" href="https://github.com/azqyasadidatn"target="_blank">Github</a>
+        <a class="btn" href="https://www.linkedin.com/in/azqya-sadidatun-nisa-72991a341/"target="_blank">Linkdin</a>
+        <i> © Made with Love</i>
+    </div>
+    <script>
+
+        function showSection(){
+            var x= document.getElementById("menu-proyek");
+            if(x.style.display === "block"){
+                x.style.display="none";
+            }else{
+                x.style.display="block";
+            }
+        }
+    </script>
+</body>
+</html>
